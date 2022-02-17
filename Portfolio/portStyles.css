@@ -1,0 +1,263 @@
+@font-face {
+  font-family: "Gilroy-Light";
+  src: url('webFonts/GilroyLight/font.woff2') format('woff2'), url('webFonts/GilroyLight/font.woff') format('woff');
+}
+@font-face {
+  font-family: "Gilroy-ExtraBold";
+  src: url('webFonts/GilroyExtraBold/font.woff2') format('woff2'), url('webFonts/GilroyExtraBold/font.woff') format('woff');
+}
+
+body{
+  font-family: Poppins, sans-serif;
+}
+
+.navbar.scrolled{
+  background: white;
+  transition: background 500ms;
+}
+
+@media(max-width:767px){
+
+  #intro, #services, #hire, #work, #message{
+    text-align: center;
+  }
+  #branding, #workCap{
+    margin-bottom: 3rem;
+  }
+  #email{
+    margin-top: 1.5rem;
+  }
+  #footer{
+    text-align: center;
+  }
+  #img1, #img2{
+    width: 80%
+  }
+  #btn1{
+    margin-top: 1rem;
+  }
+  #foot{
+    justify-content: center;
+  }
+  #intro h1{
+    font-size: 2.3rem;
+  }
+  #intro h2{
+    font-size: 2.2rem !important;
+  }
+}
+
+@media(min-width: 991px){
+  #branding{
+    margin-right: 4rem;
+  }
+  #marg{
+    margin-left: 9rem;
+  }
+}
+
+@media(min-width: 1200px){
+  #branding{
+    margin-right: 0;
+  }
+}
+
+@media(min-width: 768px){
+  #workCap{
+    margin-bottom: 3rem;
+  }
+
+  #bg {
+    position: relative;
+  }
+  
+  #bg:before {
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.3;
+    background-image: url('imgs/world_map_PNG20.png');
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    background-size: cover;
+  }
+  
+  #message {
+    position: relative;
+  }
+}
+
+#intro, #mainNavbar, #work{
+  background: #f3faff;
+}
+
+#btn5{
+  margin-bottom: 6rem;
+}
+
+#img1{
+  width: 80%;
+  margin-top: 2rem;
+}
+
+#intro h1{
+  font-weight:700;
+}
+
+.color178ec2{
+  color:#178ec2;
+}
+
+.colorBlack{
+  color: black;
+}
+
+.color1750c2{
+  color: #1750c2;
+}
+
+.coloref77d7{
+  color: #ef77d7;
+}
+
+.navbar-toggler-icon{
+  background-image: none;
+}
+
+.navbar-toggler-icon::before{
+  font-family: FontAwesome;
+  content: "\f0c9";
+}
+
+#btn1, #btn2, #btn3, #btn4, #btn5{
+  padding: 0.5rem 1.5rem;
+}
+
+#btn1{
+  background-color: #ef77d7;
+  color: white;
+}
+
+#btn2{
+  background-color: #178ec2;
+  color: white;
+}
+
+#btn3{
+  background: none;
+  color: #1750c2;
+  border: 1px solid #1750c2;
+}
+
+#btn4, #btn5{
+  background-color: #1750c2;
+  color: white;
+}
+
+#work{
+  padding: 0.8rem 0 3.2rem 0;
+}
+
+footer{
+  background-color: #1750c2;
+  padding: 0.05rem 0;
+  color: white;
+}
+
+#bigCard1{
+  border-bottom: 4px solid #ef77d7;
+}
+
+#bigCard3{
+  border-bottom: 4px solid #178ec2;
+}
+
+#bigCard2{
+  border-bottom: 4px solid #1750c2;
+}
+
+.progress-bar, .progress{
+  height: 10px;
+}
+
+.bar1.progress-bar{
+  background-color:#1750c2;
+}
+
+.bar2.progress-bar{
+  background-color: #ef77d7;
+}
+
+.bar3.progress-bar{
+  background-color: #178ec2;
+}
+
+.navbar-brand, .btn, #intro h4, #services h4, #services h5, #cv h4, #cv h5, #cv a, #work h4, #work .a1, #work h5, #message h4{
+  font-weight: 600;
+}
+
+#intro h2{
+  font-weight: 800;
+  font-size: 2.9rem;
+}
+
+#cv h5, #work p, #work a, #work h5, #message p, footer p{
+  font-size: 14px;
+}
+
+#services h5{
+  font-size: 18px;
+}
+
+#cv a, #work .a1{
+  text-decoration: underline;
+}
+
+.navbar a:hover, .navbar a:focus{
+  text-decoration: underline;
+  color: #178ec2;
+}
+
+#btn2:hover{
+  background-color:#1275a0;
+}
+
+#btn1:hover{
+  background-color: #cc66b8;
+}
+
+#btn3:hover{
+  background-color: #1750c2;
+  color: white;
+}
+
+#btn4:hover, #btn5:hover{
+  background-color: #12409c;
+}
+
+#branding .card .card-body:hover h5, #branding .card .card-body:hover i, #branding .card .card-body:hover{
+  background-color: #ef77d7;
+  color: white;
+}
+
+#uiDesign .card .card-body:hover h5, #uiDesign .card .card-body:hover i, #uiDesign .card .card-body:hover{
+  background-color: #1750c2;
+  color: white;
+}
+
+#webdev .card .card-body:hover h5, #webdev .card .card-body:hover i, #webdev .card .card-body:hover{
+  background-color: #178ec2;
+  color: white;
+}
+
+.card:hover, .btn:hover, .progress:hover, #work img:hover{
+  transform: scale(1.05);
+  border: none;
+  box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+  transition: all 150ms;
+}
+
